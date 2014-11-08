@@ -178,7 +178,7 @@ background-color: #eeeff1;
 
 /* green header */
 header {
-	background-image: url('../img/banner.png');
+	background-image: url('/img/banner.png');
 }
 
 nav {
