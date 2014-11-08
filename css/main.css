@@ -24,8 +24,6 @@ img{
 }
 
 
-
-
 /*******************************
 HEADING
 *******************************/
@@ -86,7 +84,7 @@ nav a{
 
 
 /*******************************
-PAGE PORTFOLIO
+MAIN PAGE
 *******************************/
 #all-services{
 	margin:0;
@@ -95,61 +93,70 @@ PAGE PORTFOLIO
 }
 
 .box{
-	height:20em;
+	height:17em;
 	border-radius: 1em;
     box-shadow: 2px 1px 5px rgba(136, 136, 136, 0.2);
+    padding:5% 10%; 
+
 
 }
 
-#notes{
-background-image: linear-gradient(bottom, #FFFFFF 70%, #2eaeb5 50%);
-background-image: -o-linear-gradient(bottom, #FFFFFF 70%, #2eaeb5 50%);
-background-image: -moz-linear-gradient(bottom, #FFFFFF 70%, #2eaeb5 50%);
-background-image:-webkit-linear-gradient(bottom, #FFFFFF 70%, #2eaeb5 50%);
-background-image: -ms-linear-gradient(bottom, #FFFFFF 70%, #2eaeb5 50%);
+.box-head{
+	font-size: 2.2em;
+	color:#fff;
 }
 
-#workshops{
-background-image: linear-gradient(bottom, #FFFFFF 70%, #ffba00 50%);
-background-image: -o-linear-gradient(bottom, #FFFFFF 70%, #ffba00 50%);
-background-image: -moz-linear-gradient(bottom, #FFFFFF 70%, #ffba00 50%);
-background-image:-webkit-linear-gradient(bottom, #FFFFFF 70%, #ffba00 50%);
-background-image: -ms-linear-gradient(bottom, #FFFFFF 70%, #ffba00 50%);
+.content{
+	padding-top: 9%;
 }
 
-#test{
-background-image: linear-gradient(bottom, #FFFFFF 70%, #ea028a 50%);
-background-image: -o-linear-gradient(bottom, #FFFFFF 70%, #ea028a 50%);
-background-image: -moz-linear-gradient(bottom, #FFFFFF 70%, #ea028a 50%);
-background-image:-webkit-linear-gradient(bottom, #FFFFFF 70%, #ea028a 50%);
-background-image: -ms-linear-gradient(bottom, #FFFFFF 70%, #ea028a 50%);
+.notes{
+background-image: linear-gradient(bottom, #FFFFFF 77%, #2eaeb5 20%);
+background-image: -o-linear-gradient(bottom, #FFFFFF 77%, #2eaeb5 20%);
+background-image: -moz-linear-gradient(bottom, #FFFFFF 77%, #2eaeb5 20%);
+background-image:-webkit-linear-gradient(bottom, #FFFFFF 77%, #2eaeb5 20%);
+background-image: -ms-linear-gradient(bottom, #FFFFFF 77%, #2eaeb5 20%);
 }
 
-#tutor{
-background-image: linear-gradient(bottom, #FFFFFF 70%, #48b52e 50%);
-background-image: -o-linear-gradient(bottom, #FFFFFF 70%, #48b52e 50%);
-background-image: -moz-linear-gradient(bottom, #FFFFFF 70%, #48b52e 50%);
-background-image:-webkit-linear-gradient(bottom, #FFFFFF 70%, #48b52e 50%);
-background-image: -ms-linear-gradient(bottom, #FFFFFF 70%, #48b52e 50%);
+.workshops{
+background-image: linear-gradient(bottom, #FFFFFF 77%, #ffba00 50%);
+background-image: -o-linear-gradient(bottom, #FFFFFF 77%, #ffba00 50%);
+background-image: -moz-linear-gradient(bottom, #FFFFFF 77%, #ffba00 50%);
+background-image:-webkit-linear-gradient(bottom, #FFFFFF 77%, #ffba00 50%);
+background-image: -ms-linear-gradient(bottom, #FFFFFF 77%, #ffba00 50%);
 }
 
-#appointment{
-background-image: linear-gradient(bottom, #FFFFFF 70%, #083a8e 50%);
-background-image: -o-linear-gradient(bottom, #FFFFFF 70%, #083a8e 50%);
-background-image: -moz-linear-gradient(bottom, #FFFFFF 70%, #083a8e 50%);
-background-image:-webkit-linear-gradient(bottom, #FFFFFF 70%, #083a8e 50%);
-background-image: -ms-linear-gradient(bottom, #FFFFFF 70%, #083a8e 50%);
+.test{
+background-image: linear-gradient(bottom, #FFFFFF 77%, #ea028a 50%);
+background-image: -o-linear-gradient(bottom, #FFFFFF 77%, #ea028a 50%);
+background-image: -moz-linear-gradient(bottom, #FFFFFF 77%, #ea028a 50%);
+background-image:-webkit-linear-gradient(bottom, #FFFFFF 77%, #ea028a 50%);
+background-image: -ms-linear-gradient(bottom, #FFFFFF 77%, #ea028a 50%);
 }
 
-#letters{
-background-image: linear-gradient(bottom, #FFFFFF 70%, #606060 50%);
-background-image: -o-linear-gradient(bottom, #FFFFFF 70%, #606060 50%);
-background-image: -moz-linear-gradient(bottom, #FFFFFF 70%, #606060 50%);
-background-image:-webkit-linear-gradient(bottom, #FFFFFF 70%, #606060 50%);
-background-image: -ms-linear-gradient(bottom, #FFFFFF 70%, #606060 50%);
+.tutor{
+background-image: linear-gradient(bottom, #FFFFFF 77%, #48b52e 50%);
+background-image: -o-linear-gradient(bottom, #FFFFFF 77%, #48b52e 50%);
+background-image: -moz-linear-gradient(bottom, #FFFFFF 77%, #48b52e 50%);
+background-image:-webkit-linear-gradient(bottom, #FFFFFF 77%, #48b52e 50%);
+background-image: -ms-linear-gradient(bottom, #FFFFFF 77%, #48b52e 50%);
 }
 
+.appointment{
+background-image: linear-gradient(bottom, #FFFFFF 77%, #083a8e 50%);
+background-image: -o-linear-gradient(bottom, #FFFFFF 77%, #083a8e 50%);
+background-image: -moz-linear-gradient(bottom, #FFFFFF 77%, #083a8e 50%);
+background-image:-webkit-linear-gradient(bottom, #FFFFFF 77%, #083a8e 50%);
+background-image: -ms-linear-gradient(bottom, #FFFFFF 77%, #083a8e 50%);
+}
 
+.letters{
+background-image: linear-gradient(bottom, #FFFFFF 77%, #606060 50%);
+background-image: -o-linear-gradient(bottom, #FFFFFF 77%, #606060 50%);
+background-image: -moz-linear-gradient(bottom, #FFFFFF 77%, #606060 50%);
+background-image:-webkit-linear-gradient(bottom, #FFFFFF 77%, #606060 50%);
+background-image: -ms-linear-gradient(bottom, #FFFFFF 77%, #606060 50%);
+}
 
 
 #all-services li{  /*Select list from unordered list called gallery*/
@@ -215,16 +222,70 @@ Buttons
   -moz-border-radius: 6;
   border-radius: 6px;
   font-family: Arial;
-  color: #ffffff;
   font-size: 20px;
-  background: #2eaeb5;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+  color: #ffffff;
+  background-color: red;
 }
 
-.btn:hover {
+.btn.notes{
+	background: #2eaeb5;
+}
+
+.btn.workshops{
+	background: #ffba00;
+}
+
+.btn.test{
+	background:#ea028a;
+}
+
+.btn.findtutor{
+	background:#48b52e;
+}
+
+.btn.betutor{
+	background:#09832B;
+}
+
+.btn.appointment{
+	background:#083a8e;
+}
+
+.btn.accomodation{
+	background:#606060;
+}
+
+p{
+	padding-top: 6%;
+}
+.btn.notes:hover {
   background: #47cad1;
   text-decoration: none;
 }
 
+.btn.workshops:hover{
+	background:#FFD669;
+}
+
+.btn.test:hover{
+	background:#FF66C0;
+}
+
+.btn.findtutor:hover{
+	background:#75E45B;
+}
+
+.btn.betutor:hover{
+	background:#75E45B;
+}
+
+.btn.appointment:hover{
+	background:#4983E4;
+}
+
+.btn.accomodation:hover{
+	background:#8B8B8B;
+}
 
