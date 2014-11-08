@@ -1,0 +1,232 @@
+
+/**********************
+General
+**********************/
+
+#wrapper{
+	max-width:940px;
+	margin:0 auto; /*center the wrapper*/
+	padding:0 5%; /*first value is top/bottom */
+}
+
+
+a{
+	text-decoration:none; /*No underlines on links*/
+	color:#74c889;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+img{
+	max-width:100%; /*tells the images to fill the width of their container or else images will break out of containers*/
+}
+
+h3{
+margin:0 0 1em 0;
+}
+
+
+/*******************************
+HEADING
+*******************************/
+header{
+	padding:5px 0 0 0; /*Clockwise. Top, right, bottom, left*/
+	width:100%; /*element should strech across entire page*/	
+	height: 6em;
+}
+
+
+#logo{
+text-align:center;
+margin:0; /* element won't have any spacing around the edges*/	
+}
+
+h1{
+	font-family:'Changa One', sans-serif;  /*basically if changa one doesn't work, it goes to sans-serif*/
+	margin:15px 0;
+	font-size:1.75em; 
+	font-weight:normal; /*unbold headline cuz headline elements are bold by default*/
+	line-height:0.8em; /*spacing between each line of text*/
+}
+
+h2{
+	font-size:0.75em;
+	font-weight:normal;
+	margin:-5px 0 0; /*-5 sets the top, middle value sets left and right, third sets bottom. Elements tighter together*/
+}
+
+
+
+/*******************************
+NAVIGATION
+*******************************/
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin-bottom: 2em;
+}
+
+nav ul{
+	list-style:none; 
+	margin:0 10px;
+	padding:.5em;
+	font-size: 20px;
+}
+
+nav li{
+		display:inline-block; 
+	/*block elements are vertical. Inline elements go side to side.*/
+	/*inline block means it has block level properties like width and height*/
+}
+
+nav a{
+	font-weight:400; 
+	padding:15px 10px; /*padding on all sides of our links on navigation */
+}
+
+
+/*******************************
+PAGE PORTFOLIO
+*******************************/
+#all-services{
+	margin:0;
+	padding:0;
+	list-style:none; /*removes bullet points from list*/
+}
+
+.box{
+	height:20em;
+	border-radius: 1em;
+    box-shadow: 2px 1px 5px rgba(136, 136, 136, 0.2);
+
+}
+
+#notes{
+background-image: linear-gradient(bottom, #FFFFFF 70%, #2eaeb5 50%);
+background-image: -o-linear-gradient(bottom, #FFFFFF 70%, #2eaeb5 50%);
+background-image: -moz-linear-gradient(bottom, #FFFFFF 70%, #2eaeb5 50%);
+background-image:-webkit-linear-gradient(bottom, #FFFFFF 70%, #2eaeb5 50%);
+background-image: -ms-linear-gradient(bottom, #FFFFFF 70%, #2eaeb5 50%);
+}
+
+#workshops{
+background-image: linear-gradient(bottom, #FFFFFF 70%, #ffba00 50%);
+background-image: -o-linear-gradient(bottom, #FFFFFF 70%, #ffba00 50%);
+background-image: -moz-linear-gradient(bottom, #FFFFFF 70%, #ffba00 50%);
+background-image:-webkit-linear-gradient(bottom, #FFFFFF 70%, #ffba00 50%);
+background-image: -ms-linear-gradient(bottom, #FFFFFF 70%, #ffba00 50%);
+}
+
+#test{
+background-image: linear-gradient(bottom, #FFFFFF 70%, #ea028a 50%);
+background-image: -o-linear-gradient(bottom, #FFFFFF 70%, #ea028a 50%);
+background-image: -moz-linear-gradient(bottom, #FFFFFF 70%, #ea028a 50%);
+background-image:-webkit-linear-gradient(bottom, #FFFFFF 70%, #ea028a 50%);
+background-image: -ms-linear-gradient(bottom, #FFFFFF 70%, #ea028a 50%);
+}
+
+#tutor{
+background-image: linear-gradient(bottom, #FFFFFF 70%, #48b52e 50%);
+background-image: -o-linear-gradient(bottom, #FFFFFF 70%, #48b52e 50%);
+background-image: -moz-linear-gradient(bottom, #FFFFFF 70%, #48b52e 50%);
+background-image:-webkit-linear-gradient(bottom, #FFFFFF 70%, #48b52e 50%);
+background-image: -ms-linear-gradient(bottom, #FFFFFF 70%, #48b52e 50%);
+}
+
+#appointment{
+background-image: linear-gradient(bottom, #FFFFFF 70%, #083a8e 50%);
+background-image: -o-linear-gradient(bottom, #FFFFFF 70%, #083a8e 50%);
+background-image: -moz-linear-gradient(bottom, #FFFFFF 70%, #083a8e 50%);
+background-image:-webkit-linear-gradient(bottom, #FFFFFF 70%, #083a8e 50%);
+background-image: -ms-linear-gradient(bottom, #FFFFFF 70%, #083a8e 50%);
+}
+
+#letters{
+background-image: linear-gradient(bottom, #FFFFFF 70%, #606060 50%);
+background-image: -o-linear-gradient(bottom, #FFFFFF 70%, #606060 50%);
+background-image: -moz-linear-gradient(bottom, #FFFFFF 70%, #606060 50%);
+background-image:-webkit-linear-gradient(bottom, #FFFFFF 70%, #606060 50%);
+background-image: -ms-linear-gradient(bottom, #FFFFFF 70%, #606060 50%);
+}
+
+
+
+
+#all-services li{  /*Select list from unordered list called gallery*/
+	float:left;
+	width:45%;
+	margin:2.5%; /*each image has 5% margins. A total of 10% fills extra 10% of space*/
+	color:#bdc3c7; 
+}
+
+
+
+
+
+
+/**********************************
+COLORS
+***********************************/
+
+/* site body */
+body {
+background-color: #eeeff1;
+  color: #999;
+}
+
+/* green header */
+header {
+	background-image: url('../img/banner.png');
+}
+
+nav {
+  background: #3e3e3e;
+}
+
+h1, h2 {
+  color: #fff;
+}
+
+a {
+  color: #6ab47b;
+}
+
+nav a, nav a:visited {
+  color: #949494;
+}
+
+/*current nav*/
+nav a.selected, nav a:hover {
+  color: #FAD100;
+   -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s;
+}
+
+
+/**********************************
+Buttons
+***********************************/
+.btn {
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #2eaeb5;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #47cad1;
+  text-decoration: none;
+}
+
+
