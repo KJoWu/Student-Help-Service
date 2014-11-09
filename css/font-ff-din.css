@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "FF DIN";
+    src: url('/font/DINWeb-Bold.eot');
+    src: url("/font/DINWeb-Bold.eot?#iefix") format("embedded-opentype"),
+         url("/font/DINWeb-Bold.woff") format("woff"),
+         url('/font/DINComp-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:"FF DIN";
+    src: url('/font/DINWeb-Medium.eot');
+    src: url("/font/DINWeb-Medium.eot?#iefix") format("embedded-opentype"),
+         url("/font/DINWeb-Medium.woff") format("woff"),
+         url('/font/DINComp-Medium.ttf') format('truetype');
+    font-weight: 600;
+    font-style:normal;
+}
+
+@font-face {
+    font-family:"FF DIN";
+    src: url('/font/DINWeb.eot');
+    src: url("/font/DINWeb.eot?#iefix") format("embedded-opentype"),
+         url("/font/DINWeb.woff") format("woff"),
+         url('/font/DINComp.ttf') format('truetype');
+    font-weight: 400;
+    font-style:normal;
+}
+
+@font-face {
+    font-family:"FF DIN";
+    src: url('/font/DINWeb-Light.eot');
+    src: url("/font/DINWeb-Light.eot?#iefix") format("embedded-opentype"),
+         url("/font/DINWeb-Light.woff") format("woff"),
+         url('/font/DINComp-Light.ttf') format('truetype');
+    font-weight:200;
+    font-style:normal;
+}

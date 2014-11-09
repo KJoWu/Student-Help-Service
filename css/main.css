@@ -40,7 +40,9 @@ margin:0; /* element won't have any spacing around the edges*/
 }
 
 h1{
-	font-family:'Changa One', sans-serif;  /*basically if changa one doesn't work, it goes to sans-serif*/
+
+	font-family:'FF DIN', sans-serif;  /*basically if changa one doesn't work, it goes to sans-serif*/
+	/*font-family:'Changa One', sans-serif;*/  /*basically if changa one doesn't work, it goes to sans-serif*/
 	margin:15px 0;
 	font-size:1.75em; 
 	font-weight:normal; /*unbold headline cuz headline elements are bold by default*/
