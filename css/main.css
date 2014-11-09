@@ -183,7 +183,9 @@ background-color: #eeeff1;
 
 /* green header */
 header.main-banner {
-  background: url('/img/banner.png') top center;
+  background-position: top center;
+  background-image: url('/img/banner.png');
+  background-image: url('/img/banner.svg');
 }
 
 nav {
