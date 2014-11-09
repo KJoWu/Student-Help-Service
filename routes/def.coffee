@@ -1,8 +1,9 @@
 # Route Definitions
 # (Using iron:router)
 
-# Dashboard
-Router.route '/', -> @render 'dashboard'
+Router.configure layoutTemplate: 'ApplicationLayout'
+
+Router.route '/', name: 'dashboard'
 Router.route '/services'
 Router.route '/note-taking'
 

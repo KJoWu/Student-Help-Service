@@ -72,6 +72,10 @@ nav ul{
 	font-size: 20px;
 }
 
+nav li:not(:first-child)::before {
+    content: "|";
+}
+
 nav li{
 		display:inline-block; 
 	/*block elements are vertical. Inline elements go side to side.*/

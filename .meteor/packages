@@ -9,4 +9,5 @@ insecure
 natestrauser:font-awesome
 coffeescript
 iron:router
+accounts-password
 

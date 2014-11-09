@@ -1,7 +1,7 @@
 {ObjectID} = Mongo
 
 @needsPopulate = ->
-  @Users.find().count() is 0
+  @Users.find().count() is 0 and false
 
 @populateInitialDatabase = ->
   # Create new Object IDs.

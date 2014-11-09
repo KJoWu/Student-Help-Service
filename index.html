@@ -5,7 +5,6 @@
     <!--the width of the website is adjusted for phones/websites-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
     <title>Student Services</title>
 </head>
 
@@ -13,19 +12,16 @@
 
     <header class="main-banner">
         <!--part of site's content. Helps structure information-->
-        <a href="index.html" id="logo">
+        <a href="/" id="logo" alt="Go to dashboard">
             <h1>University Student Services</h1>
             <h2>Student Success Center</h2>
         </a>
     </header>
 
-
     <nav>
         <ul>
-            <li><a href="index.html" class="selected">Services</a>
-            </li>|
-            <li><a href="dashboard.html">My Dashboard</a>
-            </li>
+            <li>{{#linkTo route='dashboard'}}Dashboard{{/linkTo}}</li>
+            <li>{{#linkTo route='services'}}Services{{/linkTo}}</li>
         </ul>
     </nav>
 
