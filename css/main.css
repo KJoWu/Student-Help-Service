@@ -224,12 +224,13 @@ Buttons
   -webkit-border-radius: 6;
   -moz-border-radius: 6;
   border-radius: 6px;
-  font-family: Arial;
+  font-family: sans-serif; /* What font group should this be? */
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
   color: #ffffff;
-  background-color: red;
+  background-color:#333;
+  display: inline-block;
 }
 
 .btn.notes{
@@ -256,7 +257,7 @@ Buttons
 	background:#083a8e;
 }
 
-.btn.accomodation{
+.btn.letters{
 	background:#606060;
 }
 
