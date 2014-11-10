@@ -25,17 +25,6 @@ Template.notesdue.helpers
 
 # Moment Configuration
 ISO8601_FORMAT = 'YYYY-MM-DD'
-
-# Don't need granularity for calendar dates
-moment.locale 'en',
-  calendar:
-    lastDay : '[Yesterday]',
-    sameDay : '[Today]',
-    nextDay : '[Tomorrow]',
-    lastWeek : '[Last] dddd',
-    nextWeek : 'dddd',
-    sameElse : ''
-
 Template.notesbox.helpers
   relativeDate: (date) ->
     # For displaying "Today", "Yesterday", etc.
