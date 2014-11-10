@@ -18,7 +18,7 @@
       ]
       # This is cached here for convenience.
       notes_due: [
-        { course: englCourse, class: ['November', 6, 2014] }
+        { course: englCourse, classOf: ['November', 6, 2014] }
       ]
     },
 
