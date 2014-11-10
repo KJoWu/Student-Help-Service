@@ -18,7 +18,7 @@ moment.locale 'fr',
     nextDay: '[Demain]'
     nextWeek: 'dddd'
     lastDay: '[Hier]'
-    lastWeek: 'dddd [dernier] LT'
+    lastWeek: 'dddd [dernier]'
     sameElse: 'L'
   relativeTime:
     future : "dans %s"

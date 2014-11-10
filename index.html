@@ -13,18 +13,17 @@
     <header class="main-banner">
         <!--part of site's content. Helps structure information-->
         <a href="/" id="logo" alt="Go to dashboard">
-            <h1>University Student Services</h1>
-            <h2>Student Success Center</h2>
+            <h1>{{i18n 'header.university_student_services'}}</h1>
+            <h2>{{i18n 'header.student_success_center'}}</h2>
         </a>
     </header>
 
     <nav>
         <ul>
-            <li>{{#linkTo route='dashboard'}}Dashboard{{/linkTo}}</li>
-            <li>{{#linkTo route='services'}}Services{{/linkTo}}</li>
+            <li>{{#linkTo route='dashboard'}}{{i18n 'nav.dashboard'}}{{/linkTo}}</li>
+            <li>{{#linkTo route='services'}}{{i18n 'nav.services'}}{{/linkTo}}</li>
         </ul>
     </nav>
 
     <!-- See the appropriate page template for its definition. -->
-
 </body>
