@@ -33,3 +33,17 @@ Template.notesbox.helpers
     # Use month/date/year formatting.
     moment(date, ISO8601_FORMAT).format('LL')
 
+Template.languagePicker.helpers
+  'inEnglish': ->
+    Session.get('language') is 'en-CA'
+
+Template.languagePicker.events
+  'click .language-toggle': () ->
+    language =
+      switch Session.get('language')
+        when 'en-CA' then 'fr-CA'
+        else 'en-CA'
+    Session.set('language', language)
+    false
+
+  

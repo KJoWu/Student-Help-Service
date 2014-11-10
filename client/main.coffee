@@ -1,9 +1,12 @@
 Meteor.startup ->
-  # Detect language based on Accept-Language string
-  #language = window.navigator.userLanguage or window.navigator.languages[0] or window.navigator.language
-  #detectedLang = getLanguage language
-  detectedLang = 'fr-CA'
-  i18n.setLanguage detectedLang
+  language = Session.get('language')
+  if not language?
+    # Detect language based on Accept-Language string
+    detectedLanguage = window.navigator.userLanguage or window.navigator.language
+    detectedLanguage = 'fr-CA'
+    Session.set('language', detectedLanguage)
 
-  moment.locale detectedLang
-
+  Tracker.autorun ->
+    language = Session.get('language')
+    i18n.setLanguage language
+    moment.locale language
