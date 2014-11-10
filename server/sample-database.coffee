@@ -1,7 +1,7 @@
 {ObjectID} = Mongo
 
 @needsPopulate = ->
-  @Users.find().count() is 0
+  @Users.find().count() is 0 and false
 
 @populateInitialDatabase = ->
   # Create new Object IDs.
@@ -18,7 +18,7 @@
       ]
       # This is cached here for convenience.
       notes_due: [
-        { course: englCourse, class: ['November', 6, 2014] }
+        { course: englCourse, classOf: ['November', 6, 2014] }
       ]
     },
 

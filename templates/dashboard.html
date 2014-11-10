@@ -1,0 +1,28 @@
+<template name="dashboard">
+    {{>notesdue}}
+</template>
+
+<template name="notesdue">
+    <section class="notes-due">
+        <header>
+            <h2>{{i18n 'dashboard.Notes Due'}}</h2>
+        </header>
+        <ol class="quick-notes">
+            {{#each notes_due}}
+            <li>{{>notesbox}}</li>
+            {{/each}}
+        </ol>
+    </section>
+</template>
+
+<template name="notesbox">
+    <div class="notes-box">
+        <div class="drop-zone"></div>
+        <header>
+            {{#with course}}
+            <h1 class="course-title">{{dept}} {{num}}</h1>
+            {{/with}}
+            <h2 class="class-date"><span class="relative">{{relativeDate classOf}}</span> <span class="absolute">{{absoluteDate classOf}}</span></h2>
+        </header>
+    </div>
+</template>

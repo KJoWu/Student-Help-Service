@@ -8,4 +8,8 @@ autopublish
 insecure
 natestrauser:font-awesome
 coffeescript
+iron:router
+accounts-password
+mrt:moment
+anti:i18n
 

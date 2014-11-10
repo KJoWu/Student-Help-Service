@@ -1,0 +1,86 @@
+<template name="services">
+    <section>
+        <ul id="all-services">
+            <li>
+                <div class="box notes">
+                    <div class="box-head"><i class="fa fa-pencil"></i> {{i18n 'Note Taking'}}</div>
+                    <div class="content">
+                        {{lorem}}
+                        <p><a class="btn notes" href="">{{i18n 'services.Be a Note Taker'}}</a>
+                        </p>
+
+                    </div>
+                </div>
+
+            </li>
+
+            <li>
+                <div class="box workshops">
+                    <div class="box-head"> <i class="fa fa-paper-plane-o"></i> {{i18n 'Workshops'}}</div>
+                    <div class="content">
+                        {{lorem}}
+                        <p><a class="btn workshops" href="">{{i18n 'services.Book a workshop'}}</a>
+                        </p>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="box test">
+                    <div class="box-head"> <i class="fa fa-check-square-o"></i> {{i18n 'Book a Test'}}</div>
+                    <div class="content">
+                        {{lorem}}
+                        <p><a class="btn test" href="">{{i18n 'services.Book a Test'}}</a>
+                        </p>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="box tutor">
+                    <div class="box-head"> <i class="fa fa-lightbulb-o"></i> {{i18n 'Tutor'}}</div>
+                    <div class="content">
+                        {{lorem}}
+                        <p><a class="btn betutor" href="">{{i18n 'services.Be a Tutor'}}</a>  <a class="btn findtutor" href="">{{i18n 'services.Find a Tutor'}}</a>
+                        </p>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="box appointment">
+                    <div class="box-head"> <i class="fa fa-phone"></i> {{i18n 'Appointments'}}</div>
+                    <div class="content">
+                        {{lorem}}
+                        <p><a class="btn appointment" href="">{{i18n 'services.Book Appointment'}}</a> 
+                        </p>
+                    </div>
+
+                </div>
+            </li>
+
+            <li>
+                <div class="box letters">
+                    <div class="box-head"> <i class="fa fa-file-text-o"></i> {{i18n 'Accomodation'}}</div>
+                    <div class="content">
+                        {{lorem}}
+                        <p><a class="btn accomodation" href="">{{i18n 'services.Apply for a Letter'}}</a> 
+                        </p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+</template>
+
+<template name="service-box">
+    <li>
+        <div class="box {{kind}}">
+            <div class="box-head"><i class="fa fa-{{icon}}"></i> {{i18n 'Note Taking'}}</div>
+            <div class="content">
+                {{lorem}}
+                <p><a class="btn" href="#">{{i18n 'services.Be a Note Taker'}}</a></p>
+            </div>
+        </div>
+    </li>
+</template>
