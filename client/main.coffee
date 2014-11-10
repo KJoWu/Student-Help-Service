@@ -10,3 +10,9 @@ Meteor.startup ->
     language = Session.get('language')
     i18n.setLanguage language
     moment.locale language
+
+Router.onAfterAction ->
+  # dat regex
+  [_fullMatch, section] = @url.match(////([^/]+)/?///) ? [null, 'dashboard']
+  console.log section
+  Session.set('section', section)

@@ -5,6 +5,20 @@ Template.registerHelper 'lorem', ->
    esse vel iusto deleniti, voluptatum omnis repellat ut excepturi
    consequatur.'
 
+Template.registerHelper 'selectedSection', ->
+  Session.get('section')
+
+Template.registerHelper 'siteSection', ->
+  currentSection = Session.get('section')
+
+  # These are the site sections....
+  ['dashboard', 'services'].map (name) ->
+    route: name
+    title: "nav.#{name}"
+    class: if name is currentSection then 'selected' else ''
+
+
+# Temporary data for testing...
 englCourse =
   _id: englCourse
   dept: 'ENGL'
@@ -17,7 +31,6 @@ englCourse =
   ]
 
 Template.notesdue.helpers
-  # Temporary thing...
   notes_due: [
     { course: englCourse, classOf: '2014-11-8'}
     { course: englCourse, classOf: '2014-11-6'}

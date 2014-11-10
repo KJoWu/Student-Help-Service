@@ -19,8 +19,9 @@
 
     <nav>
         <ul>
-            <li>{{#linkTo route='dashboard'}}{{i18n 'nav.dashboard'}}{{/linkTo}}</li>
-            <li>{{#linkTo route='services'}}{{i18n 'nav.services'}}{{/linkTo}}</li>
+            {{#each siteSection}}
+            <li>{{#linkTo route=route class=class}}{{i18n title}}{{/linkTo}}</li>
+            {{/each}}
         </ul>
     </nav>
 
